@@ -1,7 +1,11 @@
 # Crisis Need to Resource Matching Engine
-# Final, stable, demo-ready version
+# Final demo-ready version with urgency-based prioritization
 
 from data.resources import resources
+
+# -----------------------------
+# Configuration
+# -----------------------------
 
 need_keywords = {
     "food": ["food", "hungry"],
@@ -15,10 +19,24 @@ locations = ["Tambaram", "Velachery", "Perungudi", "Saidapet"]
 urgency_keywords = ["urgent", "immediately", "help", "now"]
 vulnerable_keywords = ["children", "child", "elderly", "old"]
 
+urgency_rank = {
+    "HIGH": 3,
+    "MEDIUM": 2,
+    "LOW": 1
+}
+
+# -----------------------------
+# Read emergency messages
+# -----------------------------
+
 with open("data/emergency_messages.txt", "r") as file:
     messages = file.readlines()
 
-print("\n=== CRISIS RESOURCE MATCHING SYSTEM ===\n")
+results = []
+
+# -----------------------------
+# Process each message
+# -----------------------------
 
 for msg in messages:
     msg_lower = msg.lower()
@@ -26,7 +44,6 @@ for msg in messages:
     detected_need = "unknown"
     detected_location = "unknown"
     urgency_score = 0
-    reasons = []
 
     # Detect need
     for need, keywords in need_keywords.items():
@@ -43,20 +60,17 @@ for msg in messages:
     # Urgency scoring
     if any(word in msg_lower for word in urgency_keywords):
         urgency_score += 3
-        reasons.append("Urgent language detected")
 
     if any(word in msg_lower for word in vulnerable_keywords):
         urgency_score += 2
-        reasons.append("Vulnerable individuals mentioned")
 
     if "no food" in msg_lower or "no water" in msg_lower:
         urgency_score += 2
-        reasons.append("Basic needs unavailable")
 
     if detected_need == "medical":
         urgency_score += 3
-        reasons.append("Medical assistance required")
 
+    # Determine urgency level
     if urgency_score >= 6:
         urgency_level = "HIGH"
     elif urgency_score >= 3:
@@ -64,26 +78,50 @@ for msg in messages:
     else:
         urgency_level = "LOW"
 
-    # Resource matching (ROBUST)
+    # Resource matching
     matched_resource = None
-
     for resource in resources:
-        if resource["type"] == detected_need and resource["available"] > 0:
-            if resource["location"] == detected_location:
-                matched_resource = resource
-                break
+        if (
+            resource["type"] == detected_need
+            and resource["location"] == detected_location
+            and resource["available"] > 0
+        ):
+            matched_resource = resource
+            break
 
-    # OUTPUT (ALWAYS PRINTS)
-    print("Message:", msg.strip())
-    print(" → Need:", detected_need)
-    print(" → Location:", detected_location)
-    print(" → Urgency Level:", urgency_level)
+    # Store result
+    results.append({
+        "message": msg.strip(),
+        "need": detected_need,
+        "location": detected_location,
+        "urgency_level": urgency_level,
+        "urgency_rank": urgency_rank[urgency_level],
+        "resource": matched_resource
+    })
 
-    if matched_resource:
+# -----------------------------
+# Sort by urgency (HIGH → LOW)
+# -----------------------------
+
+results.sort(key=lambda x: x["urgency_rank"], reverse=True)
+
+# -----------------------------
+# Final Output
+# -----------------------------
+
+print("\n=== CRISIS RESOURCE MATCHING SYSTEM (PRIORITIZED) ===\n")
+
+for item in results:
+    print("Message:", item["message"])
+    print(" → Need:", item["need"])
+    print(" → Location:", item["location"])
+    print(" → Urgency Level:", item["urgency_level"])
+
+    if item["resource"]:
         print(
-            f" → Assigned Resource: {matched_resource['type']} "
-            f"from {matched_resource['location']} "
-            f"(Available: {matched_resource['available']})"
+            f" → Assigned Resource: {item['resource']['type']} "
+            f"from {item['resource']['location']} "
+            f"(Available: {item['resource']['available']})"
         )
         print(" → Decision Reason: Closest available resource matching need and location")
     else:
