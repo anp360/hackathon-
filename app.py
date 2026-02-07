@@ -455,7 +455,7 @@ if __name__ == '__main__':
     os.makedirs('static', exist_ok=True)
     
     print("\n" + "="*60)
-    print("🆘 RESCUE-AI - SMART EMERGENCY RESPONSE")
+    print("🆘 RESQ-AI - SMART EMERGENCY RESPONSE")
     print("="*60)
     print(f"\n📍 Dashboard URL: http://localhost:5000")
     print("\n⚠️  Make sure to set GEMINI_API_KEY environment variable!")
