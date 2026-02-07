@@ -1,0 +1,164 @@
+{
+  "donations": [
+    {
+      "id": "don_001",
+      "donor_name": "Anna Nagar Community",
+      "donor_location": "Anna Nagar",
+      "resource_type": "food",
+      "quantity": "100 kg rice",
+      "contact": "+91-9123456780",
+      "notes": "",
+      "status": "available",
+      "posted_time": "2026-02-07T15:16:59.315892",
+      "assigned_to": null
+    },
+    {
+      "id": "don_002",
+      "donor_name": "T Nagar Relief Center",
+      "donor_location": "T Nagar",
+      "resource_type": "water",
+      "quantity": "200 liters",
+      "contact": "+91-9123456781",
+      "notes": "",
+      "status": "available",
+      "posted_time": "2026-02-07T15:16:59.315892",
+      "assigned_to": null
+    },
+    {
+      "id": "don_003",
+      "donor_name": "Adyar Hospital",
+      "donor_location": "Adyar",
+      "resource_type": "medical supplies",
+      "quantity": "10 first aid kits",
+      "contact": "+91-9123456782",
+      "notes": "",
+      "status": "available",
+      "posted_time": "2026-02-07T15:16:59.315892",
+      "assigned_to": null
+    },
+    {
+      "id": "don_004",
+      "donor_name": "Porur Volunteers",
+      "donor_location": "Porur",
+      "resource_type": "food",
+      "quantity": "75 kg rice",
+      "contact": "+91-9123456783",
+      "notes": "",
+      "status": "available",
+      "posted_time": "2026-02-07T15:16:59.325811",
+      "assigned_to": null
+    },
+    {
+      "id": "don_005",
+      "donor_name": "red",
+      "donor_location": "Anna Nagar",
+      "resource_type": "water",
+      "quantity": "50l",
+      "contact": "88877766",
+      "notes": "",
+      "status": "available",
+      "posted_time": "2026-02-07T15:46:11.970205",
+      "assigned_to": null
+    },
+    {
+      "id": "demo_don_001",
+      "donor_name": "Chrompet Relief Center",
+      "location": "Chrompet (12.9517, 80.1410)",
+      "resources": [
+        "food",
+        "water",
+        "blankets"
+      ],
+      "quantity": "100 kg rice, 200L water",
+      "contact": "+91-9876543210",
+      "status": "available",
+      "posted_time": "2026-02-07T21:25:12.621781"
+    },
+    {
+      "id": "demo_don_002",
+      "donor_name": "Guindy Medical Center",
+      "location": "Guindy (13.0067, 80.2206)",
+      "resources": [
+        "medical supplies",
+        "medicine",
+        "first aid"
+      ],
+      "quantity": "20 first aid kits, medicines",
+      "contact": "+91-9876543211",
+      "status": "available",
+      "posted_time": "2026-02-07T21:25:12.621781"
+    },
+    {
+      "id": "demo_don_003",
+      "donor_name": "T Nagar Community Kitchen",
+      "location": "T Nagar (13.0418, 80.2341)",
+      "resources": [
+        "food",
+        "water"
+      ],
+      "quantity": "150 kg rice, 300L water",
+      "contact": "+91-9876543212",
+      "status": "available",
+      "posted_time": "2026-02-07T21:25:12.621781"
+    },
+    {
+      "id": "demo_don_004",
+      "donor_name": "Saidapet Water Station",
+      "location": "Saidapet (13.0214, 80.2231)",
+      "resources": [
+        "water",
+        "shelter"
+      ],
+      "quantity": "500L clean water",
+      "contact": "+91-9876543213",
+      "status": "available",
+      "posted_time": "2026-02-07T21:25:12.621781"
+    }
+  ],
+  "needs": [
+    {
+      "id": "need_001",
+      "location": "Tambaram",
+      "need_type": "food",
+      "quantity": "50 kg rice",
+      "urgency": "HIGH",
+      "description": "Families without food for 2 days",
+      "status": "needed",
+      "posted_time": "2026-02-07T15:16:59.315892",
+      "fulfilled_by": []
+    },
+    {
+      "id": "need_002",
+      "location": "Velachery",
+      "need_type": "water",
+      "quantity": "100 liters",
+      "urgency": "CRITICAL",
+      "description": "No clean water available",
+      "status": "needed",
+      "posted_time": "2026-02-07T15:16:59.315892",
+      "fulfilled_by": []
+    },
+    {
+      "id": "need_003",
+      "location": "Perungudi",
+      "need_type": "medical supplies",
+      "quantity": "First aid kits",
+      "urgency": "HIGH",
+      "description": "Multiple injuries",
+      "status": "needed",
+      "posted_time": "2026-02-07T15:16:59.315892",
+      "fulfilled_by": []
+    },
+    {
+      "id": "need_004",
+      "location": "Tambaram",
+      "need_type": "shelter",
+      "quantity": "Requested via emergency message",
+      "urgency": "HIGH",
+      "description": "house flood need help, tambaram",
+      "status": "needed",
+      "posted_time": "2026-02-07T18:48:49.883539",
+      "fulfilled_by": []
+    }
+  ]
+}

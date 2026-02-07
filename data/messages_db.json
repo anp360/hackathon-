@@ -1,0 +1,2306 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "original_message": "Need food urgently near Tambaram, no food for 2 days",
+      "analysis": {
+        "need_type": "food",
+        "location": "Tambaram",
+        "urgency_base_score": 9,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": true,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 70.5,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 27.0,
+          "time_sensitivity": 12.5,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Life-threatening situation detected",
+          "Extended duration - suffering for multiple days"
+        ],
+        "timestamp": "2026-02-07T15:02:05.320825"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T15:02:05.320825",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "original_message": "Medical help needed for elderly person in Velachery",
+      "analysis": {
+        "need_type": "medical",
+        "location": "Velachery",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [
+          "elderly"
+        ],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 75.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 7.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Medical emergencies require immediate attention",
+          "Vulnerable groups present: elderly",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T15:02:05.396699"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T15:02:05.396699",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "original_message": "No water available for 2 days, family with children in Perungudi",
+      "analysis": {
+        "need_type": "water",
+        "location": "Perungudi",
+        "urgency_base_score": 6,
+        "vulnerable_groups": [
+          "children"
+        ],
+        "has_immediate_danger": false,
+        "extended_duration": true,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 49.5,
+        "urgency_level": "MEDIUM",
+        "score_breakdown": {
+          "base_urgency": 18.0,
+          "time_sensitivity": 7.5,
+          "vulnerable_groups": 8.0,
+          "immediate_danger": 0.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "Vulnerable groups present: children",
+          "Extended duration - suffering for multiple days"
+        ],
+        "timestamp": "2026-02-07T15:02:05.593697"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T15:02:05.593697",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "original_message": "Shelter required after flooding near Saidapet",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "Saidapet",
+        "urgency_base_score": 5,
+        "vulnerable_groups": [],
+        "has_immediate_danger": false,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 31.5,
+        "urgency_level": "LOW",
+        "score_breakdown": {
+          "base_urgency": 15.0,
+          "time_sensitivity": 12.5,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 0.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [],
+        "timestamp": "2026-02-07T15:02:05.662566"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T15:02:05.662566",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "original_message": "Newborn baby needs medical attention urgently in Tambaram, mother also weak",
+      "analysis": {
+        "need_type": "medical",
+        "location": "Tambaram",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [
+          "baby"
+        ],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 97.0,
+        "urgency_level": "CRITICAL",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 14.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Medical emergencies require immediate attention",
+          "Vulnerable groups present: baby",
+          "Life-threatening situation detected",
+          "CRITICAL: Baby/infant with life-threatening emergency"
+        ],
+        "timestamp": "2026-02-07T15:02:05.849249"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T15:02:05.849249",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "original_message": "Infant baby not breathing properly in Velachery, need help immediately",
+      "analysis": {
+        "need_type": "medical",
+        "location": "Velachery",
+        "urgency_base_score": 10,
+        "vulnerable_groups": [
+          "baby"
+        ],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 103.0,
+        "urgency_level": "CRITICAL",
+        "score_breakdown": {
+          "base_urgency": 30.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 14.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Medical emergencies require immediate attention",
+          "Vulnerable groups present: baby",
+          "Life-threatening situation detected",
+          "CRITICAL: Baby/infant with life-threatening emergency"
+        ],
+        "timestamp": "2026-02-07T15:02:05.952637"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T15:02:05.968347",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "original_message": "Child with respiratory issues, difficulty breathing in Perungudi",
+      "analysis": {
+        "need_type": "medical",
+        "location": "Perungudi",
+        "urgency_base_score": 10,
+        "vulnerable_groups": [
+          "children"
+        ],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 82.0,
+        "urgency_level": "CRITICAL",
+        "score_breakdown": {
+          "base_urgency": 30.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 8.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Medical emergencies require immediate attention",
+          "Vulnerable groups present: children",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T15:02:06.107777"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T15:02:06.107777",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "original_message": "house flooded , 2 people need shelter urgently",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:17:55.960148"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:17:55.962505",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "original_message": "house flooded , 2 people need shelter urgently",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 7,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 65.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 21.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:21:49.067084"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:21:49.067607",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "original_message": "house flooded , 2 people need shelter urgently",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 5,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 74.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 10.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (5)"
+        ],
+        "timestamp": "2026-02-07T18:21:57.189511"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:21:57.189511",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "original_message": "house flooded , 2 people need shelter urgently",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 9,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 71.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 27.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:21:57.687340"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:21:57.688311",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "original_message": "house flooded , 2 people need shelter urgently",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:01.417068"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:01.417068",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "original_message": "house flooded , 2 people need shelter urgently",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:01.884010"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:01.884010",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "original_message": "house flooded , 2 people need shelter urgently",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:02.099253"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:02.099253",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "original_message": "house flooded , 2 people need shelter urgently",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:02.282529"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:02.282529",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "original_message": "house flooded , 2 people need shelter urgently",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:02.337823"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:02.337823",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:27.157759"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:27.158478",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 10,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 3,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 77.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 30.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 7.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (3)"
+        ],
+        "timestamp": "2026-02-07T18:22:28.258545"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:28.258545",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:28.518012"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:28.518012",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:35.433618"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:35.436488",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:35.635988"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:35.635988",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:35.821825"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:35.826772",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:35.885956"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:35.885956",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 9,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 71.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 27.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:36.091596"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:36.091596",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:38.018418"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:38.018418",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:38.590237"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:38.596962",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:38.877543"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:38.877543",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 5,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 74.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 10.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (5)"
+        ],
+        "timestamp": "2026-02-07T18:22:39.068293"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:39.068293",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 10,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 3,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 77.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 30.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 7.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (3)"
+        ],
+        "timestamp": "2026-02-07T18:22:40.765872"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:40.767179",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:22:41.771063"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:41.773077",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 5,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 74.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 10.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (5)"
+        ],
+        "timestamp": "2026-02-07T18:22:42.149232"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:22:42.149232",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 7,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 65.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 21.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:41:42.597556"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:41:42.602980",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 33,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 9,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 71.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 27.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:42:32.375411"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:42:32.383793",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 34,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:42:33.229070"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:42:33.230425",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 35,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:42:33.452993"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:42:33.458434",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 36,
+      "original_message": "house flood , need shelter urgently. anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 5,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 74.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 10.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (5)"
+        ],
+        "timestamp": "2026-02-07T18:43:01.127870"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:43:01.127870",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 37,
+      "original_message": "house flood need help, tambaram",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "Tambaram",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:48:49.863253"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:48:49.864331",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 38,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:49:14.976555"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:14.976555",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 39,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:49:16.106867"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:16.109363",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 40,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 10,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 3,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 77.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 30.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 7.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (3)"
+        ],
+        "timestamp": "2026-02-07T18:49:16.839795"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:16.842719",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 41,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:49:17.097445"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:17.105964",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 42,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 10,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 3,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 77.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 30.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 7.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (3)"
+        ],
+        "timestamp": "2026-02-07T18:49:22.007316"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:22.009338",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 43,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 5,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 74.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 10.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (5)"
+        ],
+        "timestamp": "2026-02-07T18:49:23.241201"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:23.242127",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 44,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:49:51.245759"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:51.245759",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 45,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:49:51.385059"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:51.387345",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 46,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 9,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 71.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 27.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:49:51.547777"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:51.550148",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 47,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 10,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 3,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 77.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 30.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 7.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (3)"
+        ],
+        "timestamp": "2026-02-07T18:49:51.608464"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:51.617688",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 48,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 5,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 74.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 10.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (5)"
+        ],
+        "timestamp": "2026-02-07T18:49:51.773252"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:51.773648",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 49,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 9,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 71.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 27.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:49:51.955551"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:51.958688",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 50,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 9,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 71.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 27.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:49:52.507806"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:52.509442",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 51,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:49:58.802847"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:58.805933",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 52,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 5,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 74.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 10.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (5)"
+        ],
+        "timestamp": "2026-02-07T18:49:59.080476"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:59.083819",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 53,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 9,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 71.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 27.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T18:49:59.297827"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T18:49:59.303760",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 54,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 7,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 65.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 21.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T19:44:22.137263"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T19:44:22.137263",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 55,
+      "original_message": "houses flooded need help , anna nagar",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T19:44:23.388423"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T19:44:23.391818",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 56,
+      "original_message": "house flooded need help , saidapet",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "Saidapet",
+        "urgency_base_score": 10,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 3,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 77.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 30.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 7.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected",
+          "Multiple people affected (3)"
+        ],
+        "timestamp": "2026-02-07T19:44:47.250608"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T19:44:47.264384",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 57,
+      "original_message": "house flooded need help , saidapet",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "Saidapet",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": 1,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T19:44:47.832620"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T19:44:47.832620",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 58,
+      "original_message": "house flooded need help , saidapet",
+      "analysis": {
+        "need_type": "shelter",
+        "location": "Saidapet",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 68.0,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Nighttime exposure is life-threatening",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T19:44:48.458839"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T19:44:48.558529",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 59,
+      "original_message": "Please help - urgent situation",
+      "analysis": {
+        "need_type": "unknown",
+        "location": "unknown",
+        "urgency_base_score": 8,
+        "vulnerable_groups": [],
+        "has_immediate_danger": true,
+        "extended_duration": false,
+        "keywords_found": [],
+        "estimated_people_count": null,
+        "additional_context": "Fallback analysis used"
+      },
+      "priority": {
+        "total_score": 50.5,
+        "urgency_level": "MEDIUM",
+        "score_breakdown": {
+          "base_urgency": 24.0,
+          "time_sensitivity": 7.5,
+          "vulnerable_groups": 0.0,
+          "immediate_danger": 15.0,
+          "people_count": 4.0
+        },
+        "priority_reasons": [
+          "High urgency keywords detected",
+          "Life-threatening situation detected"
+        ],
+        "timestamp": "2026-02-07T20:14:30.329132"
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T20:14:30.332924",
+      "assigned_to": null,
+      "resolved_at": null,
+      "notes": ""
+    },
+    {
+      "id": 9001,
+      "original_message": "Urgent: Family of 4 needs food and water at Tambaram - children crying from hunger",
+      "message_text": "Urgent: Family of 4 needs food and water at Tambaram - children crying from hunger",
+      "analysis": {
+        "need_type": "food and water",
+        "location": "Tambaram (12.9229, 80.1275)",
+        "urgency_base_score": 9,
+        "vulnerable_groups": [
+          "children"
+        ],
+        "has_immediate_danger": true,
+        "needs_list": [
+          "food",
+          "water"
+        ],
+        "estimated_people_count": 4
+      },
+      "priority": {
+        "total_score": 92,
+        "urgency_level": "CRITICAL",
+        "score_breakdown": {
+          "base_urgency": 27.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 20.0,
+          "immediate_danger": 15.0,
+          "people_count": 5.0
+        }
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T21:25:12.621781"
+    },
+    {
+      "id": 9002,
+      "original_message": "Elderly person needs medical supplies at Velachery - critical condition",
+      "message_text": "Elderly person needs medical supplies at Velachery - critical condition",
+      "analysis": {
+        "need_type": "medical",
+        "location": "Velachery (12.9756, 80.2219)",
+        "urgency_base_score": 10,
+        "vulnerable_groups": [
+          "elderly"
+        ],
+        "has_immediate_danger": true,
+        "needs_list": [
+          "medical supplies",
+          "medicine"
+        ],
+        "estimated_people_count": 1
+      },
+      "priority": {
+        "total_score": 88,
+        "urgency_level": "CRITICAL",
+        "score_breakdown": {
+          "base_urgency": 30.0,
+          "time_sensitivity": 25.0,
+          "vulnerable_groups": 20.0,
+          "immediate_danger": 15.0,
+          "people_count": 2.0
+        }
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T21:25:12.621781"
+    },
+    {
+      "id": 9003,
+      "original_message": "Pregnant woman needs water and shelter at Adyar - immediate help required",
+      "message_text": "Pregnant woman needs water and shelter at Adyar - immediate help required",
+      "analysis": {
+        "need_type": "water and shelter",
+        "location": "Adyar (13.0067, 80.2571)",
+        "urgency_base_score": 9,
+        "vulnerable_groups": [
+          "pregnant"
+        ],
+        "has_immediate_danger": true,
+        "needs_list": [
+          "water",
+          "shelter"
+        ],
+        "estimated_people_count": 2
+      },
+      "priority": {
+        "total_score": 85,
+        "urgency_level": "HIGH",
+        "score_breakdown": {
+          "base_urgency": 27.0,
+          "time_sensitivity": 20.0,
+          "vulnerable_groups": 20.0,
+          "immediate_danger": 15.0,
+          "people_count": 3.0
+        }
+      },
+      "status": "pending",
+      "received_at": "2026-02-07T21:25:12.621781"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-02-07T20:14:30.332924"
+  }
+}

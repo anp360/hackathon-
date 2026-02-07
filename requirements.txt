@@ -1,0 +1,18 @@
+# Crisis Management AI System - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core AI
+google-generativeai==0.8.3
+
+# Web Framework
+Flask==3.0.3
+Flask-CORS==4.0.1
+
+# Data Processing
+python-dateutil==2.9.0
+
+# Image Processing (for media handling)
+Pillow==10.2.0
+
+# Development
+python-dotenv==1.0.1

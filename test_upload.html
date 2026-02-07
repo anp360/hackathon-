@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SMS Upload Test</title>
+</head>
+<body>
+    <h1>Test SMS/MMS Upload</h1>
+    
+    <form id="test-form">
+        <div>
+            <label>Phone:</label>
+            <input type="text" id="phone" value="+91-9876543210" />
+        </div>
+        
+        <div>
+            <label>Message:</label>
+            <textarea id="message">Please help - urgent situation</textarea>
+        </div>
+        
+        <div>
+            <label>Media File:</label>
+            <input type="file" id="media" accept="image/*" />
+        </div>
+        
+        <button type="button" onclick="testUpload()">Test Upload</button>
+    </form>
+    
+    <div id="result" style="margin-top: 20px; padding: 10px; border: 1px solid #ddd;"></div>
+    
+    <script>
+        async function testUpload() {
+            console.log('Starting test upload...');
+            const resultDiv = document.getElementById('result');
+            const phone = document.getElementById('phone').value;
+            const message = document.getElementById('message').value;
+            const fileInput = document.getElementById('media');
+            
+            console.log('Phone:', phone);
+            console.log('Message:', message);
+            console.log('File input:', fileInput);
+            console.log('Files:', fileInput.files);
+            
+            const formData = new FormData();
+            formData.append('phone_number', phone);
+            formData.append('message', message);
+            
+            if (fileInput.files && fileInput.files[0]) {
+                const file = fileInput.files[0];
+                console.log('File details:', {
+                    name: file.name,
+                    type: file.type,
+                    size: file.size
+                });
+                formData.append('media', file);
+            }
+            
+            resultDiv.innerHTML = '<p>Sending...</p>';
+            
+            try {
+                console.log('Sending request to http://localhost:5000/api/sms/submit');
+                const response = await fetch('http://localhost:5000/api/sms/submit', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                console.log('Response status:', response.status);
+                console.log('Response headers:', response.headers);
+                
+                const data = await response.json();
+                console.log('Response data:', data);
+                
+                resultDiv.innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+                
+            } catch (error) {
+                console.error('Error:', error);
+                resultDiv.innerHTML = '<p style="color: red;">Error: ' + error.message + '</p>';
+            }
+        }
+    </script>
+</body>
+</html>

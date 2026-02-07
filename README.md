@@ -1,29 +1,18 @@
-# Crisis Need to Resource Matching Engine
+# Crisis Management AI System 🚨
 
-## Problem
-During disasters, emergency requests arrive as unstructured, emotional messages.
-Manual interpretation slows response time and increases errors.
+## 🎯 Overview
+AI-powered emergency response system for natural disasters using **Google Gemini AI**. Intelligently processes distress messages, prioritizes them with time-aware scoring, and provides a real-time dashboard for emergency responders.
 
-## Solution
-This project is a decision-support tool that:
-- Reads unstructured emergency messages
-- Extracts need, location, and urgency
-- Prioritizes requests using transparent rules
-- Matches requests with available nearby resources
-- Explains every decision for human responders
+## ✨ Key Features
+- 🤖 **AI-Powered Analysis** - Gemini AI interprets unstructured emergency messages
+- ⏰ **Time-Aware Prioritization** - Nighttime shelter = higher priority
+- 📍 **Location-Based Filtering** - Filter by geographic areas
+- 👥 **Vulnerable Population Detection** - Automatically identifies children, elderly, pregnant
+- 📊 **Real-Time Dashboard** - Web interface for emergency responders
+- 🔄 **Auto-Refresh** - Updates every 30 seconds
 
-## How It Works
-1. Emergency messages are ingested as free text
-2. Rule-based logic extracts key information
-3. Urgency is scored using explainable criteria
-4. Matching resources are identified
-5. Output is presented for responder review
+## 🚀 Quick Start
 
-## Tech Stack
-- Python
-- Rule-based NLP
-- Explainable logic (no black-box AI)
-
-## How to Run
+### 1. Install Dependencies
 ```bash
-python main.py
+pip install -r requirements.txt

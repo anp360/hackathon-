@@ -1,0 +1,67 @@
+{
+  "responders": [
+    {
+      "id": "resp_001",
+      "name": "Rajesh Kumar",
+      "role": "Emergency Coordinator",
+      "assigned_zone": "Tambaram",
+      "family": {
+        "members": [
+          "Wife: Priya",
+          "Son: Arun (8 years)"
+        ],
+        "location": "Velachery",
+        "contact": "+91-9876543210",
+        "last_contact": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "resp_002",
+      "name": "Lakshmi Devi",
+      "role": "Medical Team Lead",
+      "assigned_zone": "Velachery",
+      "family": {
+        "members": [
+          "Husband: Suresh",
+          "Daughter: Meena (5 years)"
+        ],
+        "location": "Perungudi",
+        "contact": "+91-9876543211",
+        "last_contact": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "resp_003",
+      "name": "Mohamed Ali",
+      "role": "Rescue Team Lead",
+      "assigned_zone": "Saidapet",
+      "family": {
+        "members": [
+          "Mother: Fatima (65 years)",
+          "Brother: Hassan"
+        ],
+        "location": "Tambaram",
+        "contact": "+91-9876543212",
+        "last_contact": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "resp_004",
+      "name": "Priya Sharma",
+      "role": "Logistics Coordinator",
+      "assigned_zone": "Perungudi",
+      "family": {
+        "members": [
+          "Parents: Both elderly"
+        ],
+        "location": "Anna Nagar",
+        "contact": "+91-9876543213",
+        "last_contact": null,
+        "status": "safe"
+      }
+    }
+  ]
+}

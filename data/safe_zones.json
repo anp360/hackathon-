@@ -1,0 +1,48 @@
+{
+  "safe_zones": [
+    {
+      "location": "Anna Nagar",
+      "status": "safe",
+      "resources_available": [
+        "food",
+        "water",
+        "medical supplies"
+      ],
+      "contact_person": "Community Center - Anna Nagar",
+      "contact_number": "+91-9123456780"
+    },
+    {
+      "location": "T Nagar",
+      "status": "safe",
+      "resources_available": [
+        "shelter",
+        "food",
+        "clothing"
+      ],
+      "contact_person": "Relief Center - T Nagar",
+      "contact_number": "+91-9123456781"
+    },
+    {
+      "location": "Adyar",
+      "status": "safe",
+      "resources_available": [
+        "medical supplies",
+        "water",
+        "generators"
+      ],
+      "contact_person": "Adyar Relief Hub",
+      "contact_number": "+91-9123456782"
+    },
+    {
+      "location": "Porur",
+      "status": "safe",
+      "resources_available": [
+        "food",
+        "blankets",
+        "hygiene kits"
+      ],
+      "contact_person": "Porur Community Hall",
+      "contact_number": "+91-9123456783"
+    }
+  ]
+}
